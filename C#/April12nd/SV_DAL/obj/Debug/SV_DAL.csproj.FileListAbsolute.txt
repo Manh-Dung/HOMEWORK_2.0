@@ -1,0 +1,6 @@
+C:\Users\Acer\OneDrive\Documents\HOMEWORK\CSharp\April12nd\SV_DAL\bin\Debug\SV_DAL.dll
+C:\Users\Acer\OneDrive\Documents\HOMEWORK\CSharp\April12nd\SV_DAL\bin\Debug\SV_DAL.pdb
+C:\Users\Acer\OneDrive\Documents\HOMEWORK\CSharp\April12nd\SV_DAL\obj\Debug\SV_DAL.csproj.AssemblyReference.cache
+C:\Users\Acer\OneDrive\Documents\HOMEWORK\CSharp\April12nd\SV_DAL\obj\Debug\SV_DAL.csproj.CoreCompileInputs.cache
+C:\Users\Acer\OneDrive\Documents\HOMEWORK\CSharp\April12nd\SV_DAL\obj\Debug\SV_DAL.dll
+C:\Users\Acer\OneDrive\Documents\HOMEWORK\CSharp\April12nd\SV_DAL\obj\Debug\SV_DAL.pdb

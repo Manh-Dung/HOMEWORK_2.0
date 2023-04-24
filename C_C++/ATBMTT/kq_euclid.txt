@@ -1,0 +1,3 @@
+Uoc chung lon nhat cua 12 va 3 la 3
+Hai so nguyen x va y thoa man phuong trinh 12x + 3y = gcd(12, 3) la: 
+x = 0, y = 1

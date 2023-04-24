@@ -1,0 +1,16 @@
+C:\Users\Acer\OneDrive\Documents\HOMEWORK\CSharp\March22th\March22th\bin\Debug\March22th.exe.config
+C:\Users\Acer\OneDrive\Documents\HOMEWORK\CSharp\March22th\March22th\bin\Debug\March22th.exe
+C:\Users\Acer\OneDrive\Documents\HOMEWORK\CSharp\March22th\March22th\bin\Debug\March22th.pdb
+C:\Users\Acer\OneDrive\Documents\HOMEWORK\CSharp\March22th\March22th\obj\Debug\March22th.csproj.AssemblyReference.cache
+C:\Users\Acer\OneDrive\Documents\HOMEWORK\CSharp\March22th\March22th\obj\Debug\March22th.csproj.SuggestedBindingRedirects.cache
+C:\Users\Acer\OneDrive\Documents\HOMEWORK\CSharp\March22th\March22th\obj\Debug\March22th.frmCha.resources
+C:\Users\Acer\OneDrive\Documents\HOMEWORK\CSharp\March22th\March22th\obj\Debug\March22th.frmDangNhap.resources
+C:\Users\Acer\OneDrive\Documents\HOMEWORK\CSharp\March22th\March22th\obj\Debug\March22th.Properties.Resources.resources
+C:\Users\Acer\OneDrive\Documents\HOMEWORK\CSharp\March22th\March22th\obj\Debug\March22th.csproj.GenerateResource.cache
+C:\Users\Acer\OneDrive\Documents\HOMEWORK\CSharp\March22th\March22th\obj\Debug\March22th.csproj.CoreCompileInputs.cache
+C:\Users\Acer\OneDrive\Documents\HOMEWORK\CSharp\March22th\March22th\obj\Debug\March22th.exe
+C:\Users\Acer\OneDrive\Documents\HOMEWORK\CSharp\March22th\March22th\obj\Debug\March22th.pdb
+C:\Users\Acer\OneDrive\Documents\HOMEWORK\CSharp\March22th\March22th\obj\Debug\March22th.frmTreeView.resources
+C:\Users\Acer\OneDrive\Documents\HOMEWORK\CSharp\March22th\March22th\obj\Debug\March22th.frmListView.resources
+C:\Users\Acer\OneDrive\Documents\HOMEWORK\CSharp\March22th\March22th\obj\Debug\March22th.frmMayTinh.resources
+C:\Users\Acer\OneDrive\Documents\HOMEWORK\CSharp\March22th\March22th\obj\Debug\March22th.frmMayTinhOOP.resources

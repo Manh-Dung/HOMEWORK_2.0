@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginStart="16dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginEnd="16dp"
+    android:layout_marginBottom="10dp"
+    android:background="@drawable/cart_background"
+    android:elevation="3dp"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".Activity.ProfileActivity">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="16dp"
+            app:layout_constraintVertical_bias="0.61"
+            app:srcCompat="@drawable/profile" />
+
+        <EditText
+            android:id="@+id/edProName"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/cart_background"
+            android:gravity="center_vertical"
+            android:text="Họ và tên"
+            android:textColor="#373b54"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/cart_background"
+            android:gravity="center_vertical"
+            android:text="Email"
+            android:textColor="#373b54"
+            android:textSize="15sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/edProEmail"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="@drawable/cart_background"
+            android:drawableRight="@drawable/baseline_edit_24"
+            android:gravity="center_vertical"
+            android:text="Email"
+            android:textColor="#373b54"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/cart_background"
+            android:gravity="center_vertical"
+            android:text="Số điện thoại"
+            android:textColor="#373b54"
+            android:textSize="15sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/edProPhone"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="@drawable/cart_background"
+            android:drawableRight="@drawable/baseline_edit_24"
+            android:gravity="center_vertical"
+            android:text="Số điện thoại"
+            android:textColor="#373b54"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/cart_background"
+            android:gravity="center_vertical"
+            android:text="Địa chỉ"
+            android:textColor="#373b54"
+            android:textSize="15sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/edProAddress"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="@drawable/cart_background"
+            android:drawableRight="@drawable/baseline_edit_24"
+            android:gravity="center_vertical"
+            android:text="Điạ chỉ"
+            android:textColor="#373b54"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/cart_background"
+            android:gravity="center_vertical"
+            android:text="Ngày sinh"
+            android:textColor="#373b54"
+            android:textSize="15sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/edProBirth"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="@drawable/cart_background"
+            android:drawableRight="@drawable/baseline_edit_24"
+            android:gravity="center_vertical"
+            android:text="Ngày sinh"
+            android:textColor="#373b54"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/saveBtn"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="220dp"
+            android:background="@drawable/orange_button"
+            android:elevation="3dp"
+            android:gravity="center"
+            android:text="Lưu thay đổi"
+            android:textColor="#ffffff"
+            android:textSize="23sp"
+            android:textStyle="bold"
+
+            />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

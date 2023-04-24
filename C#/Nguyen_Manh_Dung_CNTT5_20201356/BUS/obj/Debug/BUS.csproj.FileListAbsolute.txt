@@ -1,0 +1,13 @@
+C:\Users\Acer\OneDrive\Documents\HOMEWORK\CSharp\Nguyen_Manh_Dung_CNTT5_20201356\BUS\bin\Debug\BUS.dll
+C:\Users\Acer\OneDrive\Documents\HOMEWORK\CSharp\Nguyen_Manh_Dung_CNTT5_20201356\BUS\bin\Debug\BUS.pdb
+C:\Users\Acer\OneDrive\Documents\HOMEWORK\CSharp\Nguyen_Manh_Dung_CNTT5_20201356\BUS\bin\Debug\DAL.dll
+C:\Users\Acer\OneDrive\Documents\HOMEWORK\CSharp\Nguyen_Manh_Dung_CNTT5_20201356\BUS\bin\Debug\DTO.dll
+C:\Users\Acer\OneDrive\Documents\HOMEWORK\CSharp\Nguyen_Manh_Dung_CNTT5_20201356\BUS\bin\Debug\DAL.pdb
+C:\Users\Acer\OneDrive\Documents\HOMEWORK\CSharp\Nguyen_Manh_Dung_CNTT5_20201356\BUS\bin\Debug\DTO.pdb
+C:\Users\Acer\OneDrive\Documents\HOMEWORK\CSharp\Nguyen_Manh_Dung_CNTT5_20201356\BUS\obj\Debug\BUS.csproj.AssemblyReference.cache
+C:\Users\Acer\OneDrive\Documents\HOMEWORK\CSharp\Nguyen_Manh_Dung_CNTT5_20201356\BUS\obj\Debug\BUS.csproj.CoreCompileInputs.cache
+C:\Users\Acer\OneDrive\Documents\HOMEWORK\CSharp\Nguyen_Manh_Dung_CNTT5_20201356\BUS\obj\Debug\BUS.csproj.CopyComplete
+C:\Users\Acer\OneDrive\Documents\HOMEWORK\CSharp\Nguyen_Manh_Dung_CNTT5_20201356\BUS\obj\Debug\BUS.dll
+C:\Users\Acer\OneDrive\Documents\HOMEWORK\CSharp\Nguyen_Manh_Dung_CNTT5_20201356\BUS\obj\Debug\BUS.pdb
+C:\Users\Acer\OneDrive\Documents\HOMEWORK\CSharp\Nguyen_Manh_Dung_CNTT5_20201356\BUS\bin\Debug\System.Data.SqlClient.dll
+C:\Users\Acer\OneDrive\Documents\HOMEWORK\CSharp\Nguyen_Manh_Dung_CNTT5_20201356\BUS\bin\Debug\System.Data.SqlClient.xml

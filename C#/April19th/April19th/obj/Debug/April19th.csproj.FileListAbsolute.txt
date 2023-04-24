@@ -1,0 +1,11 @@
+C:\Users\Acer\OneDrive\Documents\HOMEWORK\CSharp\April19th\April19th\obj\Debug\April19th.csproj.AssemblyReference.cache
+C:\Users\Acer\OneDrive\Documents\HOMEWORK\CSharp\April19th\April19th\obj\Debug\April19th.csproj.SuggestedBindingRedirects.cache
+C:\Users\Acer\OneDrive\Documents\HOMEWORK\CSharp\April19th\April19th\obj\Debug\April19th.Form1.resources
+C:\Users\Acer\OneDrive\Documents\HOMEWORK\CSharp\April19th\April19th\obj\Debug\April19th.Properties.Resources.resources
+C:\Users\Acer\OneDrive\Documents\HOMEWORK\CSharp\April19th\April19th\obj\Debug\April19th.csproj.GenerateResource.cache
+C:\Users\Acer\OneDrive\Documents\HOMEWORK\CSharp\April19th\April19th\obj\Debug\April19th.csproj.CoreCompileInputs.cache
+C:\Users\Acer\OneDrive\Documents\HOMEWORK\CSharp\April19th\April19th\bin\Debug\April19th.exe.config
+C:\Users\Acer\OneDrive\Documents\HOMEWORK\CSharp\April19th\April19th\bin\Debug\April19th.exe
+C:\Users\Acer\OneDrive\Documents\HOMEWORK\CSharp\April19th\April19th\bin\Debug\April19th.pdb
+C:\Users\Acer\OneDrive\Documents\HOMEWORK\CSharp\April19th\April19th\obj\Debug\April19th.exe
+C:\Users\Acer\OneDrive\Documents\HOMEWORK\CSharp\April19th\April19th\obj\Debug\April19th.pdb

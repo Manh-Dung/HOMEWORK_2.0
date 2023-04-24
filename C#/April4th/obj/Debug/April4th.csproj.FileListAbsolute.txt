@@ -1,0 +1,11 @@
+C:\Users\Acer\OneDrive\Documents\HOMEWORK\CSharp\April4th\bin\Debug\April4th.exe.config
+C:\Users\Acer\OneDrive\Documents\HOMEWORK\CSharp\April4th\bin\Debug\April4th.exe
+C:\Users\Acer\OneDrive\Documents\HOMEWORK\CSharp\April4th\bin\Debug\April4th.pdb
+C:\Users\Acer\OneDrive\Documents\HOMEWORK\CSharp\April4th\obj\Debug\April4th.csproj.AssemblyReference.cache
+C:\Users\Acer\OneDrive\Documents\HOMEWORK\CSharp\April4th\obj\Debug\April4th.csproj.SuggestedBindingRedirects.cache
+C:\Users\Acer\OneDrive\Documents\HOMEWORK\CSharp\April4th\obj\Debug\April4th.QLSinhVien.resources
+C:\Users\Acer\OneDrive\Documents\HOMEWORK\CSharp\April4th\obj\Debug\April4th.Properties.Resources.resources
+C:\Users\Acer\OneDrive\Documents\HOMEWORK\CSharp\April4th\obj\Debug\April4th.csproj.GenerateResource.cache
+C:\Users\Acer\OneDrive\Documents\HOMEWORK\CSharp\April4th\obj\Debug\April4th.csproj.CoreCompileInputs.cache
+C:\Users\Acer\OneDrive\Documents\HOMEWORK\CSharp\April4th\obj\Debug\April4th.exe
+C:\Users\Acer\OneDrive\Documents\HOMEWORK\CSharp\April4th\obj\Debug\April4th.pdb

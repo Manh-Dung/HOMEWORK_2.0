@@ -1,0 +1,11 @@
+C:\Users\Acer\OneDrive\Documents\HOMEWORK\CSharp\DeKiemTra1\NguyenManhDung_20201356_De2\obj\Debug\NguyenManhDung_20201356_De2.csproj.AssemblyReference.cache
+C:\Users\Acer\OneDrive\Documents\HOMEWORK\CSharp\DeKiemTra1\NguyenManhDung_20201356_De2\obj\Debug\NguyenManhDung_20201356_De2.csproj.SuggestedBindingRedirects.cache
+C:\Users\Acer\OneDrive\Documents\HOMEWORK\CSharp\DeKiemTra1\NguyenManhDung_20201356_De2\obj\Debug\NguyenManhDung_20201356_De2.Form1.resources
+C:\Users\Acer\OneDrive\Documents\HOMEWORK\CSharp\DeKiemTra1\NguyenManhDung_20201356_De2\obj\Debug\NguyenManhDung_20201356_De2.Properties.Resources.resources
+C:\Users\Acer\OneDrive\Documents\HOMEWORK\CSharp\DeKiemTra1\NguyenManhDung_20201356_De2\obj\Debug\NguyenManhDung_20201356_De2.csproj.GenerateResource.cache
+C:\Users\Acer\OneDrive\Documents\HOMEWORK\CSharp\DeKiemTra1\NguyenManhDung_20201356_De2\obj\Debug\NguyenManhDung_20201356_De2.csproj.CoreCompileInputs.cache
+C:\Users\Acer\OneDrive\Documents\HOMEWORK\CSharp\DeKiemTra1\NguyenManhDung_20201356_De2\bin\Debug\NguyenManhDung_20201356_De2.exe.config
+C:\Users\Acer\OneDrive\Documents\HOMEWORK\CSharp\DeKiemTra1\NguyenManhDung_20201356_De2\bin\Debug\NguyenManhDung_20201356_De2.exe
+C:\Users\Acer\OneDrive\Documents\HOMEWORK\CSharp\DeKiemTra1\NguyenManhDung_20201356_De2\bin\Debug\NguyenManhDung_20201356_De2.pdb
+C:\Users\Acer\OneDrive\Documents\HOMEWORK\CSharp\DeKiemTra1\NguyenManhDung_20201356_De2\obj\Debug\NguyenManhDung_20201356_De2.exe
+C:\Users\Acer\OneDrive\Documents\HOMEWORK\CSharp\DeKiemTra1\NguyenManhDung_20201356_De2\obj\Debug\NguyenManhDung_20201356_De2.pdb

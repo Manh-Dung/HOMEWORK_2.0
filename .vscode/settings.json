@@ -1,0 +1,8 @@
+{
+    "C_Cpp.errorSquiggles": "disabled",
+    "editor.bracketPairColorization.enabled": true,
+    "editor.guides.bracketPairs":"active",
+    "terminal.integrated.fontWeight": "normal",
+    "terminal.integrated.fontFamily": "'MesloLGM NF'",
+    "terminal.integrated.shellArgs.windows": "-nologo"
+}

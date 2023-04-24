@@ -1,0 +1,12 @@
+C:\Users\Acer\OneDrive\Documents\HOMEWORK\CSharp\March16th\Vidu1\bin\Debug\Vidu1.exe.config
+C:\Users\Acer\OneDrive\Documents\HOMEWORK\CSharp\March16th\Vidu1\bin\Debug\Vidu1.exe
+C:\Users\Acer\OneDrive\Documents\HOMEWORK\CSharp\March16th\Vidu1\bin\Debug\Vidu1.pdb
+C:\Users\Acer\OneDrive\Documents\HOMEWORK\CSharp\March16th\Vidu1\obj\Debug\Vidu1.csproj.AssemblyReference.cache
+C:\Users\Acer\OneDrive\Documents\HOMEWORK\CSharp\March16th\Vidu1\obj\Debug\Vidu1.csproj.SuggestedBindingRedirects.cache
+C:\Users\Acer\OneDrive\Documents\HOMEWORK\CSharp\March16th\Vidu1\obj\Debug\Vidu1.listBox.resources
+C:\Users\Acer\OneDrive\Documents\HOMEWORK\CSharp\March16th\Vidu1\obj\Debug\Vidu1.Properties.Resources.resources
+C:\Users\Acer\OneDrive\Documents\HOMEWORK\CSharp\March16th\Vidu1\obj\Debug\Vidu1.csproj.GenerateResource.cache
+C:\Users\Acer\OneDrive\Documents\HOMEWORK\CSharp\March16th\Vidu1\obj\Debug\Vidu1.csproj.CoreCompileInputs.cache
+C:\Users\Acer\OneDrive\Documents\HOMEWORK\CSharp\March16th\Vidu1\obj\Debug\Vidu1.exe
+C:\Users\Acer\OneDrive\Documents\HOMEWORK\CSharp\March16th\Vidu1\obj\Debug\Vidu1.pdb
+C:\Users\Acer\OneDrive\Documents\HOMEWORK\CSharp\March16th\Vidu1\obj\Debug\Vidu1.radioButton.resources

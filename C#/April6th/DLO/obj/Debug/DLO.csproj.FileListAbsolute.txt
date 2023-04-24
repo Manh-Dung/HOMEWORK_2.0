@@ -1,0 +1,6 @@
+C:\Users\Acer\OneDrive\Documents\HOMEWORK\CSharp\April6th\DLO\bin\Debug\DLO.dll
+C:\Users\Acer\OneDrive\Documents\HOMEWORK\CSharp\April6th\DLO\bin\Debug\DLO.pdb
+C:\Users\Acer\OneDrive\Documents\HOMEWORK\CSharp\April6th\DLO\obj\Debug\DLO.csproj.AssemblyReference.cache
+C:\Users\Acer\OneDrive\Documents\HOMEWORK\CSharp\April6th\DLO\obj\Debug\DLO.csproj.CoreCompileInputs.cache
+C:\Users\Acer\OneDrive\Documents\HOMEWORK\CSharp\April6th\DLO\obj\Debug\DLO.dll
+C:\Users\Acer\OneDrive\Documents\HOMEWORK\CSharp\April6th\DLO\obj\Debug\DLO.pdb

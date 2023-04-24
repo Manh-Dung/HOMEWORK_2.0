@@ -1,0 +1,8 @@
+C:\Users\Acer\OneDrive\Documents\HOMEWORK\CSharp\March2th\Vidu6\obj\Debug\Vidu6.csproj.AssemblyReference.cache
+C:\Users\Acer\OneDrive\Documents\HOMEWORK\CSharp\March2th\Vidu6\obj\Debug\Vidu6.csproj.SuggestedBindingRedirects.cache
+C:\Users\Acer\OneDrive\Documents\HOMEWORK\CSharp\March2th\Vidu6\obj\Debug\Vidu6.csproj.CoreCompileInputs.cache
+C:\Users\Acer\OneDrive\Documents\HOMEWORK\CSharp\March2th\Vidu6\bin\Debug\Vidu6.exe.config
+C:\Users\Acer\OneDrive\Documents\HOMEWORK\CSharp\March2th\Vidu6\bin\Debug\Vidu6.exe
+C:\Users\Acer\OneDrive\Documents\HOMEWORK\CSharp\March2th\Vidu6\bin\Debug\Vidu6.pdb
+C:\Users\Acer\OneDrive\Documents\HOMEWORK\CSharp\March2th\Vidu6\obj\Debug\Vidu6.exe
+C:\Users\Acer\OneDrive\Documents\HOMEWORK\CSharp\March2th\Vidu6\obj\Debug\Vidu6.pdb

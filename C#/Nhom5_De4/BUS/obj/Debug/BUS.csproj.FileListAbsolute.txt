@@ -1,0 +1,14 @@
+C:\Users\Acer\OneDrive\Documents\HOMEWORK\CSharp\Nhom5_De4\BUS\bin\Debug\BUS.dll
+C:\Users\Acer\OneDrive\Documents\HOMEWORK\CSharp\Nhom5_De4\BUS\bin\Debug\BUS.pdb
+C:\Users\Acer\OneDrive\Documents\HOMEWORK\CSharp\Nhom5_De4\BUS\bin\Debug\DAL.dll
+C:\Users\Acer\OneDrive\Documents\HOMEWORK\CSharp\Nhom5_De4\BUS\bin\Debug\DTO.dll
+C:\Users\Acer\OneDrive\Documents\HOMEWORK\CSharp\Nhom5_De4\BUS\bin\Debug\DAL.pdb
+C:\Users\Acer\OneDrive\Documents\HOMEWORK\CSharp\Nhom5_De4\BUS\bin\Debug\DTO.pdb
+C:\Users\Acer\OneDrive\Documents\HOMEWORK\CSharp\Nhom5_De4\BUS\obj\Debug\BUS.csproj.AssemblyReference.cache
+C:\Users\Acer\OneDrive\Documents\HOMEWORK\CSharp\Nhom5_De4\BUS\obj\Debug\BUS.csproj.CoreCompileInputs.cache
+C:\Users\Acer\OneDrive\Documents\HOMEWORK\CSharp\Nhom5_De4\BUS\obj\Debug\BUS.csproj.CopyComplete
+C:\Users\Acer\OneDrive\Documents\HOMEWORK\CSharp\Nhom5_De4\BUS\obj\Debug\BUS.dll
+C:\Users\Acer\OneDrive\Documents\HOMEWORK\CSharp\Nhom5_De4\BUS\obj\Debug\BUS.pdb
+C:\Users\Acer\OneDrive\Documents\HOMEWORK\CSharp\Nhom5_De4\BUS\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\Acer\OneDrive\Documents\HOMEWORK\CSharp\Nhom5_De4\BUS\bin\Debug\GemBox.Spreadsheet.dll
+C:\Users\Acer\OneDrive\Documents\HOMEWORK\CSharp\Nhom5_De4\BUS\bin\Debug\GemBox.Spreadsheet.xml

@@ -1,0 +1,10 @@
+C:\Users\Acer\OneDrive\Documents\HOMEWORK\CSharp\De5_QLDuAn\DAL\bin\Debug\DAL.dll
+C:\Users\Acer\OneDrive\Documents\HOMEWORK\CSharp\De5_QLDuAn\DAL\bin\Debug\DAL.pdb
+C:\Users\Acer\OneDrive\Documents\HOMEWORK\CSharp\De5_QLDuAn\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+C:\Users\Acer\OneDrive\Documents\HOMEWORK\CSharp\De5_QLDuAn\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\Acer\OneDrive\Documents\HOMEWORK\CSharp\De5_QLDuAn\DAL\obj\Debug\DAL.dll
+C:\Users\Acer\OneDrive\Documents\HOMEWORK\CSharp\De5_QLDuAn\DAL\obj\Debug\DAL.pdb
+C:\Users\Acer\OneDrive\Documents\HOMEWORK\CSharp\De5_QLDuAn\DAL\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\Acer\OneDrive\Documents\HOMEWORK\CSharp\De5_QLDuAn\DAL\bin\Debug\GemBox.Spreadsheet.dll
+C:\Users\Acer\OneDrive\Documents\HOMEWORK\CSharp\De5_QLDuAn\DAL\bin\Debug\GemBox.Spreadsheet.xml
+C:\Users\Acer\OneDrive\Documents\HOMEWORK\CSharp\De5_QLDuAn\DAL\obj\Debug\DAL.csproj.CopyComplete

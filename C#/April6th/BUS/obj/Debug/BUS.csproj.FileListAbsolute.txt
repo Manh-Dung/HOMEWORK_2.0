@@ -1,0 +1,15 @@
+C:\Users\Acer\OneDrive\Documents\HOMEWORK\CSharp\April6th\BUS\bin\Debug\BUS.dll
+C:\Users\Acer\OneDrive\Documents\HOMEWORK\CSharp\April6th\BUS\bin\Debug\BUS.pdb
+C:\Users\Acer\OneDrive\Documents\HOMEWORK\CSharp\April6th\BUS\bin\Debug\DLO.dll
+C:\Users\Acer\OneDrive\Documents\HOMEWORK\CSharp\April6th\BUS\bin\Debug\DTO.dll
+C:\Users\Acer\OneDrive\Documents\HOMEWORK\CSharp\April6th\BUS\bin\Debug\DLO.pdb
+C:\Users\Acer\OneDrive\Documents\HOMEWORK\CSharp\April6th\BUS\bin\Debug\DTO.pdb
+C:\Users\Acer\OneDrive\Documents\HOMEWORK\CSharp\April6th\BUS\obj\Debug\BUS.csproj.AssemblyReference.cache
+C:\Users\Acer\OneDrive\Documents\HOMEWORK\CSharp\April6th\BUS\obj\Debug\BUS.csproj.CoreCompileInputs.cache
+C:\Users\Acer\OneDrive\Documents\HOMEWORK\CSharp\April6th\BUS\obj\Debug\BUS.csproj.CopyComplete
+C:\Users\Acer\OneDrive\Documents\HOMEWORK\CSharp\April6th\BUS\obj\Debug\BUS.dll
+C:\Users\Acer\OneDrive\Documents\HOMEWORK\CSharp\April6th\BUS\obj\Debug\BUS.pdb
+C:\Users\Acer\OneDrive\Documents\HOMEWORK\C#\April6th\BUS\obj\Debug\BUS.csproj.AssemblyReference.cache
+C:\Users\Acer\OneDrive\Documents\HOMEWORK\C#\April6th\BUS\obj\Debug\BUS.csproj.CoreCompileInputs.cache
+C:\Users\Acer\OneDrive\Documents\HOMEWORK\C#\April6th\BUS\obj\Debug\BUS.dll
+C:\Users\Acer\OneDrive\Documents\HOMEWORK\C#\April6th\BUS\obj\Debug\BUS.pdb

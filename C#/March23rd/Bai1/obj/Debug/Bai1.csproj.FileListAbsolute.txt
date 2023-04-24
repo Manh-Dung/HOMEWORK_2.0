@@ -1,0 +1,11 @@
+C:\Users\Acer\OneDrive\Documents\HOMEWORK\CSharp\March23th\Bai1\bin\Debug\Bai1.exe.config
+C:\Users\Acer\OneDrive\Documents\HOMEWORK\CSharp\March23th\Bai1\bin\Debug\Bai1.exe
+C:\Users\Acer\OneDrive\Documents\HOMEWORK\CSharp\March23th\Bai1\bin\Debug\Bai1.pdb
+C:\Users\Acer\OneDrive\Documents\HOMEWORK\CSharp\March23th\Bai1\obj\Debug\Bai1.csproj.AssemblyReference.cache
+C:\Users\Acer\OneDrive\Documents\HOMEWORK\CSharp\March23th\Bai1\obj\Debug\Bai1.csproj.SuggestedBindingRedirects.cache
+C:\Users\Acer\OneDrive\Documents\HOMEWORK\CSharp\March23th\Bai1\obj\Debug\Bai1.Properties.Resources.resources
+C:\Users\Acer\OneDrive\Documents\HOMEWORK\CSharp\March23th\Bai1\obj\Debug\Bai1.QuanLyNhanVien.resources
+C:\Users\Acer\OneDrive\Documents\HOMEWORK\CSharp\March23th\Bai1\obj\Debug\Bai1.csproj.GenerateResource.cache
+C:\Users\Acer\OneDrive\Documents\HOMEWORK\CSharp\March23th\Bai1\obj\Debug\Bai1.csproj.CoreCompileInputs.cache
+C:\Users\Acer\OneDrive\Documents\HOMEWORK\CSharp\March23th\Bai1\obj\Debug\Bai1.exe
+C:\Users\Acer\OneDrive\Documents\HOMEWORK\CSharp\March23th\Bai1\obj\Debug\Bai1.pdb

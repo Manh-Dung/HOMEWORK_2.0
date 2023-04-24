@@ -1,0 +1,8 @@
+C:\Users\Acer\OneDrive\Documents\HOMEWORK\CSharp\March2th\bin\Debug\March2th.exe.config
+C:\Users\Acer\OneDrive\Documents\HOMEWORK\CSharp\March2th\bin\Debug\March2th.exe
+C:\Users\Acer\OneDrive\Documents\HOMEWORK\CSharp\March2th\bin\Debug\March2th.pdb
+C:\Users\Acer\OneDrive\Documents\HOMEWORK\CSharp\March2th\obj\Debug\March2th.csproj.AssemblyReference.cache
+C:\Users\Acer\OneDrive\Documents\HOMEWORK\CSharp\March2th\obj\Debug\March2th.csproj.SuggestedBindingRedirects.cache
+C:\Users\Acer\OneDrive\Documents\HOMEWORK\CSharp\March2th\obj\Debug\March2th.csproj.CoreCompileInputs.cache
+C:\Users\Acer\OneDrive\Documents\HOMEWORK\CSharp\March2th\obj\Debug\March2th.exe
+C:\Users\Acer\OneDrive\Documents\HOMEWORK\CSharp\March2th\obj\Debug\March2th.pdb

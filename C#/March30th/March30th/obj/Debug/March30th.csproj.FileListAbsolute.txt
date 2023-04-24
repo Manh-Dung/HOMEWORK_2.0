@@ -1,0 +1,11 @@
+C:\Users\Acer\OneDrive\Documents\HOMEWORK\CSharp\March30th\March30th\bin\Debug\March30th.exe.config
+C:\Users\Acer\OneDrive\Documents\HOMEWORK\CSharp\March30th\March30th\bin\Debug\March30th.exe
+C:\Users\Acer\OneDrive\Documents\HOMEWORK\CSharp\March30th\March30th\bin\Debug\March30th.pdb
+C:\Users\Acer\OneDrive\Documents\HOMEWORK\CSharp\March30th\March30th\obj\Debug\March30th.csproj.AssemblyReference.cache
+C:\Users\Acer\OneDrive\Documents\HOMEWORK\CSharp\March30th\March30th\obj\Debug\March30th.csproj.SuggestedBindingRedirects.cache
+C:\Users\Acer\OneDrive\Documents\HOMEWORK\CSharp\March30th\March30th\obj\Debug\March30th.Properties.Resources.resources
+C:\Users\Acer\OneDrive\Documents\HOMEWORK\CSharp\March30th\March30th\obj\Debug\March30th.csproj.GenerateResource.cache
+C:\Users\Acer\OneDrive\Documents\HOMEWORK\CSharp\March30th\March30th\obj\Debug\March30th.csproj.CoreCompileInputs.cache
+C:\Users\Acer\OneDrive\Documents\HOMEWORK\CSharp\March30th\March30th\obj\Debug\March30th.exe
+C:\Users\Acer\OneDrive\Documents\HOMEWORK\CSharp\March30th\March30th\obj\Debug\March30th.pdb
+C:\Users\Acer\OneDrive\Documents\HOMEWORK\CSharp\March30th\March30th\obj\Debug\March30th.QLBanHang.resources

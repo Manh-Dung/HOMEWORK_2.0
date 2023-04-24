@@ -1,0 +1,6 @@
+C:\Users\Acer\OneDrive\Documents\HOMEWORK\CSharp\April12nd\SV_DTO\bin\Debug\SV_DTO.dll
+C:\Users\Acer\OneDrive\Documents\HOMEWORK\CSharp\April12nd\SV_DTO\bin\Debug\SV_DTO.pdb
+C:\Users\Acer\OneDrive\Documents\HOMEWORK\CSharp\April12nd\SV_DTO\obj\Debug\SV_DTO.csproj.AssemblyReference.cache
+C:\Users\Acer\OneDrive\Documents\HOMEWORK\CSharp\April12nd\SV_DTO\obj\Debug\SV_DTO.csproj.CoreCompileInputs.cache
+C:\Users\Acer\OneDrive\Documents\HOMEWORK\CSharp\April12nd\SV_DTO\obj\Debug\SV_DTO.dll
+C:\Users\Acer\OneDrive\Documents\HOMEWORK\CSharp\April12nd\SV_DTO\obj\Debug\SV_DTO.pdb
