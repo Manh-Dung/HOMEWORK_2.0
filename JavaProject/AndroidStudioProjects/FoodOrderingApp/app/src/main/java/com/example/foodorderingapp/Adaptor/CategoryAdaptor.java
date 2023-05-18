@@ -12,6 +12,7 @@ import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.core.content.ContextCompat;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.example.foodorderingapp.Activity.SearchActivity;
 import com.example.foodorderingapp.Domain.CategoryDomain;
 import com.example.foodorderingapp.R;
 import com.bumptech.glide.Glide;
@@ -87,6 +88,17 @@ public class CategoryAdaptor extends RecyclerView.Adapter<CategoryAdaptor.ViewHo
         // Sử dụng thư viện Glide để lấy ảnh từ id tài nguyên và hiển thị lên ImageView 'categoryPic'
         // Trong đó context được truyền vào được lấy từ id của tài nguyên 'itemView', hàm load() được sử dụng để tải ảnh, còn into() để chọn nơi tải ảnh
         Glide.with(holder.itemView.getContext()).load(drawableResourceId).into(holder.categoryPic);
+        holder.categoryPic.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                // Hiển thị mỗi cái itemView có chứa
+                Intent intent = new Intent(holder.itemView.getContext(), SearchActivity.class);
+
+                // Tạo 1 key tương ứng với từng đối tượng khác nhau
+                intent.putExtra("searchKey", categoryDomains.get(position).getTitle());
+                holder.itemView.getContext().startActivity(intent);
+            }
+        });
     }
 
     // Hàm bắt buộc phải có để lấy số lượng các thành phần trong list CategoryDomain

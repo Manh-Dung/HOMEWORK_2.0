@@ -1,6 +1,10 @@
 package com.example.foodorderingapp.Activity;
 
+import android.content.Context;
 import android.content.Intent;
+import android.content.res.ColorStateList;
+import android.graphics.Color;
+import android.graphics.drawable.GradientDrawable;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.LinearLayout;
@@ -8,20 +12,31 @@ import android.widget.ScrollView;
 import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.content.ContextCompat;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.foodorderingapp.Adaptor.CartListAdaptor;
 import com.example.foodorderingapp.Adaptor.Interface.ChangeNumberItemsListener;
+import com.example.foodorderingapp.Adaptor.NotificationAdaptor;
+import com.example.foodorderingapp.Domain.NotificationDomain;
 import com.example.foodorderingapp.Helper.ManagementCart;
 import com.example.foodorderingapp.R;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+
+import java.text.SimpleDateFormat;
 
 public class CartListActivity extends AppCompatActivity {
     private RecyclerView.Adapter adapter;
     private RecyclerView recyclerViewList;
     private ManagementCart managementCart;
-    TextView totalFeeTxt, taxTxt, deliveryTxt, totalTxt, emptyTxt;
+    DatabaseReference databaseReference = FirebaseDatabase.getInstance().getReference("notifications");
+
+
+    TextView totalFeeTxt, taxTxt, deliveryTxt, totalTxt, emptyTxt, checkOutBtn;
     private int tax;
     private ScrollView scrollView;
 
@@ -78,6 +93,29 @@ public class CartListActivity extends AppCompatActivity {
                 startActivity(new Intent(CartListActivity.this, SupportActivity.class));
             }
         });
+
+        checkOutBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                checkOutBtn.setText("Đã thanh toán");
+                checkOutBtn.setTextColor(ContextCompat.getColor(getApplicationContext(), R.color.login_form));
+                checkOutBtn.setBackground(ContextCompat.getDrawable(getApplicationContext(), R.drawable.white_button));
+
+                long millis = System.currentTimeMillis();
+                java.util.Date time = new java.util.Date(millis);
+
+                SimpleDateFormat dateFormat = new SimpleDateFormat("HH:mm dd-MM-yyyy");
+                String curTime = dateFormat.format(time);
+
+                NotificationDomain notificationDomain = new NotificationDomain(curTime + FirebaseAuth.getInstance().getUid(),
+                        FirebaseAuth.getInstance().getUid(),
+                        curTime,
+                        "1");
+                databaseReference.child(FirebaseAuth.getInstance().getUid())
+                        .child(curTime + FirebaseAuth.getInstance().getUid())
+                        .setValue(notificationDomain);
+            }
+        });
     }
 
     private void initView() {
@@ -89,6 +127,7 @@ public class CartListActivity extends AppCompatActivity {
         emptyTxt = findViewById(R.id.emptyTxt);
         scrollView = findViewById(R.id.scrollView3);
         recyclerViewList = findViewById(R.id.cartList);
+        checkOutBtn = findViewById(R.id.checkOutBtn);
     }
 
     private void initList() {

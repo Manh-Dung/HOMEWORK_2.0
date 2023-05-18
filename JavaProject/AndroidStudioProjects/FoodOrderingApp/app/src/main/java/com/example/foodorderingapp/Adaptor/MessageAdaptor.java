@@ -18,11 +18,11 @@ import com.google.firebase.auth.FirebaseAuth;
 import java.util.ArrayList;
 import java.util.List;
 
-public class MessageAdapter extends RecyclerView.Adapter<MessageAdapter.ViewHolder> {
+public class MessageAdaptor extends RecyclerView.Adapter<MessageAdaptor.ViewHolder> {
     private Context context;
     private List<MessageDomain> messageDomainList;
 
-    public MessageAdapter(Context context) {
+    public MessageAdaptor(Context context) {
         this.context = context;
         messageDomainList = new ArrayList<>();
     }
@@ -48,11 +48,11 @@ public class MessageAdapter extends RecyclerView.Adapter<MessageAdapter.ViewHold
     public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
         holder.msg.setText(messageDomainList.get(position).getMessage());
         if (messageDomainList.get(position).getSenderId().equals(FirebaseAuth.getInstance().getUid())) {
-            holder.main.setBackgroundColor(ContextCompat.getColor(context, R.color.teal_700));
+            holder.main.setBackgroundColor(ContextCompat.getColor(context, R.color.login_form));
             holder.msg.setTextColor(ContextCompat.getColor(context, R.color.white));
         } else {
-            holder.main.setBackgroundColor(ContextCompat.getColor(context, R.color.black));
-            holder.msg.setTextColor(ContextCompat.getColor(context, R.color.white));
+            holder.main.setBackgroundColor(ContextCompat.getColor(context, R.color.chat));
+            holder.msg.setTextColor(ContextCompat.getColor(context, R.color.black));
         }
     }
 

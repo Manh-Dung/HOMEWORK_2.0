@@ -7,12 +7,17 @@ import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.example.foodorderingapp.Domain.UserDomain;
 import com.example.foodorderingapp.databinding.ActivityLoginBinding;
 import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.Query;
+import com.google.firebase.database.ValueEventListener;
 
 public class LoginActivity extends AppCompatActivity {
     ActivityLoginBinding binding;
@@ -32,13 +37,32 @@ public class LoginActivity extends AppCompatActivity {
             public void onClick(View view) {
                 email = binding.edEmail.getText().toString();
                 password = binding.edPassword.getText().toString();
-                if (email.isEmpty() || password.isEmpty()) {
-                    Toast.makeText(LoginActivity.this, "Vui lòng nhập đầy đủ thông tin!", Toast.LENGTH_SHORT).show();
-                } else if (password.length() < 6) {
-                    Toast.makeText(LoginActivity.this, "Mật khẩu gồm 6 ký tự trở lên!", Toast.LENGTH_SHORT).show();
-                } else {
-                    login();
-                }
+
+                Query query = databaseReference.orderByChild("userEmail").equalTo(email);
+                query.addListenerForSingleValueEvent(new ValueEventListener() {
+                    @Override
+                    public void onDataChange(DataSnapshot dataSnapshot) {
+                        // Lấy kết quả trả về
+                        for (DataSnapshot ds : dataSnapshot.getChildren()) {
+                            UserDomain user = ds.getValue(UserDomain.class);
+                            if (email.isEmpty() || password.isEmpty()) {
+                                Toast.makeText(LoginActivity.this, "Vui lòng nhập đầy đủ thông tin!", Toast.LENGTH_SHORT).show();
+                            } else if (password.length() < 6) {
+                                Toast.makeText(LoginActivity.this, "Mật khẩu gồm 6 ký tự trở lên!", Toast.LENGTH_SHORT).show();
+                            } else if (!user.getUserPassword().equals(password)) {
+                                Toast.makeText(LoginActivity.this, "Sai tài khoản hoặc mật khẩu!", Toast.LENGTH_SHORT).show();
+                            } else {
+                                login();
+                            }
+                        }
+                    }
+
+                    @Override
+                    public void onCancelled(DatabaseError databaseError) {
+                        // Xử lý nếu có lỗi xảy ra
+                    }
+                });
+
 
             }
         });

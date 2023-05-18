@@ -10,18 +10,20 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.example.foodorderingapp.Activity.ChatActivity;
 import com.example.foodorderingapp.Domain.UserDomain;
 import com.example.foodorderingapp.R;
 import com.example.foodorderingapp.Activity.SupportActivity;
+import com.google.firebase.auth.FirebaseAuth;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class UserAdapter extends RecyclerView.Adapter<UserAdapter.ViewHolder> {
+public class UserAdaptor extends RecyclerView.Adapter<UserAdaptor.ViewHolder> {
     private Context context;
     private List<UserDomain> userDomainList;
 
-    public UserAdapter(Context context) {
+    public UserAdaptor(Context context) {
         this.context = context;
         userDomainList = new ArrayList<>();
     }
@@ -52,10 +54,18 @@ public class UserAdapter extends RecyclerView.Adapter<UserAdapter.ViewHolder> {
         holder.itemView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(context, SupportActivity.class);
-                // Lấy id của item
-                intent.putExtra("id", userDomain.getUserId());
-                context.startActivity(intent);
+                if (FirebaseAuth.getInstance().getUid().equals("zJmVUQQc3bZZRkO7L2GX4OScmZw2")){
+                    Intent intent = new Intent(context, ChatActivity.class);
+                    // Lấy id của item
+                    intent.putExtra("id", userDomain.getUserId());
+                    context.startActivity(intent);
+                } else {
+                    Intent intent = new Intent(context, SupportActivity.class);
+                    // Lấy id của item
+                    intent.putExtra("id", userDomain.getUserId());
+                    context.startActivity(intent);
+                }
+
             }
         });
     }

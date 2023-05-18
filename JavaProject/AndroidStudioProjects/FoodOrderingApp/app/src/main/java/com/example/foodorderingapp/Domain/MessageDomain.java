@@ -1,14 +1,14 @@
 package com.example.foodorderingapp.Domain;
 
-public class MessageModel {
+public class MessageDomain {
     private String msgId;
     private String senderId;
     private String message;
 
-    public MessageModel() {
+    public MessageDomain() {
     }
 
-    public MessageModel(String msgId, String senderId, String message) {
+    public MessageDomain(String msgId, String senderId, String message) {
         this.msgId = msgId;
         this.senderId = senderId;
         this.message = message;

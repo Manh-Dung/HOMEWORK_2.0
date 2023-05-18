@@ -8,4 +8,7 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="login_form">#ff5e00</color>
+    <color name="chat">#ececec</color>
+    <color name="xanh_duong">#007fff</color>
+    <color name="text_color">#65676b</color>
 </resources>

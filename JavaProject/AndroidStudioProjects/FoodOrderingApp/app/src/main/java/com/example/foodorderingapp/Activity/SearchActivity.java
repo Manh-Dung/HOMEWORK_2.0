@@ -10,8 +10,9 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.example.foodorderingapp.Adaptor.CartListAdaptor;
 import com.example.foodorderingapp.Adaptor.FoodFeeComparator;
-import com.example.foodorderingapp.Adaptor.Interface.FoodTittleComparator;
+import com.example.foodorderingapp.Adaptor.FoodTittleComparator;
 import com.example.foodorderingapp.Adaptor.StorageAdaptor;
 import com.example.foodorderingapp.Domain.PopularDomain;
 import com.example.foodorderingapp.databinding.ActivitySearchBinding;
@@ -30,7 +31,6 @@ public class SearchActivity extends AppCompatActivity {
         binding = ActivitySearchBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
 
-        initList();
         search(initList());
         spinnerInit();
         tittleSpinnerDrop();

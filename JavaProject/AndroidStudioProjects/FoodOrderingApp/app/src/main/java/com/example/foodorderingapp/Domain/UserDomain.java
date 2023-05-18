@@ -1,15 +1,15 @@
 package com.example.foodorderingapp.Domain;
 
-public class UserModel {
+public class UserDomain {
     private String userId, userName, userEmail, userPassword;
     private String userPhone, userAddress, userBirth;
 
-    public UserModel() {
+    public UserDomain() {
 
     }
 
-    public UserModel(String userId, String userName, String userEmail, String userPassword,
-                     String userPhone, String userAddress, String userBirth) {
+    public UserDomain(String userId, String userName, String userEmail, String userPassword,
+                      String userPhone, String userAddress, String userBirth) {
         this.userId = userId;
         this.userName = userName;
         this.userEmail = userEmail;

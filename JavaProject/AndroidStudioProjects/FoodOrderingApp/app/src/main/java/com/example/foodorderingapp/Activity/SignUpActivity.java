@@ -7,7 +7,7 @@ import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.example.foodorderingapp.Domain.UserModel;
+import com.example.foodorderingapp.Domain.UserDomain;
 import com.example.foodorderingapp.databinding.ActivitySignUpBinding;
 import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.firebase.auth.AuthResult;
@@ -58,14 +58,14 @@ public class SignUpActivity extends AppCompatActivity {
                             UserProfileChangeRequest userProfileChangeRequest = new UserProfileChangeRequest.Builder().setDisplayName(binding.edName.getText().toString()).build();
                             FirebaseUser firebaseUser = FirebaseAuth.getInstance().getCurrentUser();
                             firebaseUser.updateProfile(userProfileChangeRequest);
-                            UserModel userModel = new UserModel(FirebaseAuth.getInstance().getUid()
+                            UserDomain userDomain = new UserDomain(FirebaseAuth.getInstance().getUid()
                                     , binding.edName.getText().toString()
                                     , binding.edEmail.getText().toString()
                                     , binding.edPassword.getText().toString()
                                     , binding.edPhoneNumber.getText().toString()
                                     , binding.edAddress.getText().toString()
                                     , binding.edBirthday.getText().toString());
-                            databaseReference.child(FirebaseAuth.getInstance().getUid()).setValue(userModel);
+                            databaseReference.child(FirebaseAuth.getInstance().getUid()).setValue(userDomain);
                             startActivity(new Intent(SignUpActivity.this, IntroActivity.class));
                             finish();
                         }

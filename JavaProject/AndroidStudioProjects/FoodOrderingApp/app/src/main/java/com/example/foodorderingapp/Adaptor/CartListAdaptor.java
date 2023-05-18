@@ -18,6 +18,7 @@ import com.example.foodorderingapp.Helper.ManagementCart;
 import com.example.foodorderingapp.R;
 
 import java.util.ArrayList;
+import java.util.Comparator;
 
 public class CartListAdaptor extends RecyclerView.Adapter<CartListAdaptor.ViewHolder> {
     private ArrayList<PopularDomain> popularDomains;
@@ -72,8 +73,6 @@ public class CartListAdaptor extends RecyclerView.Adapter<CartListAdaptor.ViewHo
                 });
             }
         });
-
-
     }
 
     @Override
@@ -97,4 +96,6 @@ public class CartListAdaptor extends RecyclerView.Adapter<CartListAdaptor.ViewHo
             minusItem = itemView.findViewById(R.id.minusCartBtn);
         }
     }
+
+
 }

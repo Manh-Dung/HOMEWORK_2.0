@@ -12,10 +12,13 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.foodorderingapp.Adaptor.CategoryAdaptor;
 import com.example.foodorderingapp.Adaptor.PopularAdaptor;
+import com.example.foodorderingapp.Adaptor.UserAdaptor;
 import com.example.foodorderingapp.Domain.CategoryDomain;
 import com.example.foodorderingapp.Domain.PopularDomain;
 import com.example.foodorderingapp.R;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.database.DatabaseReference;
 
 import java.util.ArrayList;
 
@@ -23,6 +26,7 @@ public class MainActivity extends AppCompatActivity {
     private RecyclerView.Adapter adapter, adapter2;
     private RecyclerView recyclerViewCategoryList, recyclerViewPopularList;
     EditText searchMain;
+    DatabaseReference databaseReference;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -121,7 +125,12 @@ public class MainActivity extends AppCompatActivity {
         supportBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(MainActivity.this, SupportActivity.class));
+                // Nếu đây là tài khoản Admin thì vào trang dành riêng cho Admin
+                if (FirebaseAuth.getInstance().getUid().equals("zJmVUQQc3bZZRkO7L2GX4OScmZw2")){
+                    startActivity(new Intent(MainActivity.this, UserActivity.class));
+                } else{
+                    startActivity(new Intent(MainActivity.this, SupportActivity.class));
+                }
             }
         });
     }

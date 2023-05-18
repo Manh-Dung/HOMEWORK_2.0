@@ -11,7 +11,7 @@ import android.widget.Toast;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.example.foodorderingapp.Adaptor.UserAdapter;
+import com.example.foodorderingapp.Adaptor.UserAdaptor;
 import com.example.foodorderingapp.R;
 import com.example.foodorderingapp.databinding.ActivitySettingBinding;
 import com.google.firebase.auth.FirebaseAuth;
@@ -24,7 +24,7 @@ import com.google.firebase.database.ValueEventListener;
 public class SettingActivity extends AppCompatActivity {
     DatabaseReference databaseReference;
     ActivitySettingBinding binding;
-    UserAdapter userAdapter;
+    UserAdaptor userAdaptor;
     String userId;
     Boolean isOpen = false;
 
@@ -36,7 +36,7 @@ public class SettingActivity extends AppCompatActivity {
 
         userId = FirebaseAuth.getInstance().getUid();
         databaseReference = FirebaseDatabase.getInstance().getReference("users").child(userId);
-        userAdapter = new UserAdapter(this);
+        userAdaptor = new UserAdaptor(this);
 
         binding.changePass.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -64,7 +64,7 @@ public class SettingActivity extends AppCompatActivity {
                     databaseReference.addValueEventListener(new ValueEventListener() {
                         @Override
                         public void onDataChange(@NonNull DataSnapshot snapshot) {
-                            userAdapter.clear();
+                            userAdaptor.clear();
                             String userPassword = snapshot.child("userPassword").getValue(String.class);
                             if (!userPassword.equals(binding.edOld.getText().toString())) {
                                 Toast.makeText(SettingActivity.this, "Sai mật khẩu", Toast.LENGTH_SHORT).show();

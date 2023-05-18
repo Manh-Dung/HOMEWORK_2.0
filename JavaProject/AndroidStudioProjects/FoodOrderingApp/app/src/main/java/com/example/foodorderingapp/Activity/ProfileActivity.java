@@ -7,7 +7,7 @@ import android.widget.Toast;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.example.foodorderingapp.Adaptor.UserAdapter;
+import com.example.foodorderingapp.Adaptor.UserAdaptor;
 import com.example.foodorderingapp.databinding.ActivityProfileBinding;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DataSnapshot;
@@ -19,7 +19,7 @@ import com.google.firebase.database.ValueEventListener;
 public class ProfileActivity extends AppCompatActivity {
     DatabaseReference databaseReference;
     ActivityProfileBinding binding;
-    UserAdapter userAdapter;
+    UserAdaptor userAdaptor;
     String userId;
 
     @Override
@@ -30,7 +30,7 @@ public class ProfileActivity extends AppCompatActivity {
 
         userId = FirebaseAuth.getInstance().getUid();
         databaseReference = FirebaseDatabase.getInstance().getReference("users").child(userId);
-        userAdapter = new UserAdapter(this);
+        userAdaptor = new UserAdaptor(this);
 
         loadInfo();
 
@@ -46,7 +46,7 @@ public class ProfileActivity extends AppCompatActivity {
         databaseReference.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot snapshot) {
-                userAdapter.clear();
+                userAdaptor.clear();
                 binding.edProName.setText(snapshot.child("userName").getValue(String.class));
                 binding.edProEmail.setText(snapshot.child("userEmail").getValue(String.class));
                 binding.edProPhone.setText(snapshot.child("userPhone").getValue(String.class));

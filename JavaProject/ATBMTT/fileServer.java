@@ -4,7 +4,7 @@ import java.net.*;
 public class fileServer {
     public static void main(String[] args) throws IOException {
         // Server sẽ tạo một đối tượng ServerSocket và lắng nghe kết nối đến cổng 8888
-        ServerSocket serverSocket = new ServerSocket(8887);
+        ServerSocket serverSocket = new ServerSocket(8888);
         System.out.println("Waiting for connection...");
 
         // Khi có một kết nối được thiết lập, server sẽ chấp nhận kết nối đó bằng cách gọi phương thức accept() của ServerSocket 
