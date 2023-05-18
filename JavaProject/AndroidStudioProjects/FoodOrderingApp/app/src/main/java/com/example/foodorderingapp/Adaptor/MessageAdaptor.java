@@ -11,7 +11,7 @@ import androidx.annotation.NonNull;
 import androidx.core.content.ContextCompat;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.foodorderingapp.Domain.MessageModel;
+import com.example.foodorderingapp.Domain.MessageDomain;
 import com.example.foodorderingapp.R;
 import com.google.firebase.auth.FirebaseAuth;
 
@@ -20,20 +20,20 @@ import java.util.List;
 
 public class MessageAdapter extends RecyclerView.Adapter<MessageAdapter.ViewHolder> {
     private Context context;
-    private List<MessageModel> messageModelList;
+    private List<MessageDomain> messageDomainList;
 
     public MessageAdapter(Context context) {
         this.context = context;
-        messageModelList = new ArrayList<>();
+        messageDomainList = new ArrayList<>();
     }
 
-    public void add(MessageModel messageModel) {
-        messageModelList.add(messageModel);
+    public void add(MessageDomain messageDomain) {
+        messageDomainList.add(messageDomain);
         notifyDataSetChanged();
     }
 
     public void clear() {
-        messageModelList.clear();
+        messageDomainList.clear();
         notifyDataSetChanged();
     }
 
@@ -46,8 +46,8 @@ public class MessageAdapter extends RecyclerView.Adapter<MessageAdapter.ViewHold
 
     @Override
     public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
-        holder.msg.setText(messageModelList.get(position).getMessage());
-        if (messageModelList.get(position).getSenderId().equals(FirebaseAuth.getInstance().getUid())) {
+        holder.msg.setText(messageDomainList.get(position).getMessage());
+        if (messageDomainList.get(position).getSenderId().equals(FirebaseAuth.getInstance().getUid())) {
             holder.main.setBackgroundColor(ContextCompat.getColor(context, R.color.teal_700));
             holder.msg.setTextColor(ContextCompat.getColor(context, R.color.white));
         } else {
@@ -58,7 +58,7 @@ public class MessageAdapter extends RecyclerView.Adapter<MessageAdapter.ViewHold
 
     @Override
     public int getItemCount() {
-        return messageModelList.size();
+        return messageDomainList.size();
     }
 
     public class ViewHolder extends RecyclerView.ViewHolder {

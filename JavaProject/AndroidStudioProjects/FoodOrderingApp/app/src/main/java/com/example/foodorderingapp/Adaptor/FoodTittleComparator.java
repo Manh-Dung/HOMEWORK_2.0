@@ -1,4 +1,4 @@
-package com.example.foodorderingapp.Adaptor.Interface;
+package com.example.foodorderingapp.Adaptor;
 
 import com.example.foodorderingapp.Domain.PopularDomain;
 

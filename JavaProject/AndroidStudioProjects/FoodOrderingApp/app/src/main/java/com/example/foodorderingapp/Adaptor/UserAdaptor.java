@@ -10,7 +10,7 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.foodorderingapp.Domain.UserModel;
+import com.example.foodorderingapp.Domain.UserDomain;
 import com.example.foodorderingapp.R;
 import com.example.foodorderingapp.Activity.SupportActivity;
 
@@ -19,20 +19,20 @@ import java.util.List;
 
 public class UserAdapter extends RecyclerView.Adapter<UserAdapter.ViewHolder> {
     private Context context;
-    private List<UserModel> userModelList;
+    private List<UserDomain> userDomainList;
 
     public UserAdapter(Context context) {
         this.context = context;
-        userModelList = new ArrayList<>();
+        userDomainList = new ArrayList<>();
     }
 
-    public void add(UserModel userModel){
-        userModelList.add(userModel);
+    public void add(UserDomain userDomain){
+        userDomainList.add(userDomain);
         notifyDataSetChanged();
     }
 
     public void clear(){
-        userModelList.clear();
+        userDomainList.clear();
         notifyDataSetChanged();
     }
 
@@ -45,16 +45,16 @@ public class UserAdapter extends RecyclerView.Adapter<UserAdapter.ViewHolder> {
 
     @Override
     public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
-        UserModel userModel = userModelList.get(position);
-        holder.name.setText(userModelList.get(position).getUserName());
-        holder.email.setText(userModelList.get(position).getUserEmail());
+        UserDomain userDomain = userDomainList.get(position);
+        holder.name.setText(userDomainList.get(position).getUserName());
+        holder.email.setText(userDomainList.get(position).getUserEmail());
 
         holder.itemView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(context, SupportActivity.class);
                 // Lấy id của item
-                intent.putExtra("id", userModel.getUserId());
+                intent.putExtra("id", userDomain.getUserId());
                 context.startActivity(intent);
             }
         });
@@ -62,7 +62,7 @@ public class UserAdapter extends RecyclerView.Adapter<UserAdapter.ViewHolder> {
 
     @Override
     public int getItemCount() {
-        return userModelList.size();
+        return userDomainList.size();
     }
 
 
