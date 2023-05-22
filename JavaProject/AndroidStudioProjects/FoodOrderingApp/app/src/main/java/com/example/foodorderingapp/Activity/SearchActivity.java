@@ -138,7 +138,7 @@ public class SearchActivity extends AppCompatActivity {
         foodStorage.add(new PopularDomain("Burger bò phô mai", "burger_bo_pho_mai", "Xúc xích tiêu, Phô mai mozzarella, Oregano tươi, Tiêu đen xay, Sốt pizza", 200000));
         foodStorage.add(new PopularDomain("Burger đặc biệt", "burger_dac_biet", "Thịt bò, Phô mai Gouda, Sốt đặc biệt, Xà lách, Cà chua", 190000));
         foodStorage.add(new PopularDomain("Burger thịt xông khói", "burger_thit_xongg_khoi", "Dầu ô liu, Dầu thực vật, Kalamata rỗ, Cà chua bi, Oregano tươi, Húng quế", 180000));
-        foodStorage.add(new PopularDomain("Trà sữa mảcha", "tra_sua_matcha", "Trà sữa matcha là một loại đồ uống giải khát được làm từ bột trà xanh Nhật Bản, nước nóng và sữa", 50000));
+        foodStorage.add(new PopularDomain("Trà sữa matcha", "tra_sua_matcha", "Trà sữa matcha là một loại đồ uống giải khát được làm từ bột trà xanh Nhật Bản, nước nóng và sữa", 50000));
         foodStorage.add(new PopularDomain("Trà sữa trân châu", "tra_sua_tran_chau", "Trà sữa trân châu được làm từ trà đen hoặc trà xanh, sữa tươi và đường. Trân châu là một loại bột sắn được làm thành hình cầu nhỏ và có vị ngọt", 45000));
         foodStorage.add(new PopularDomain("Bánh vòng", "banh_vong", "Dầu ô liu, Dầu thực vật, Kalamata rỗ, Cà chua bi, Oregano tươi, Húng quế", 180000));
         foodStorage.add(new PopularDomain("Donut dâu tây", "donut_dau_tay", "là một loại bánh rán được làm từ bột mì và có hương vị matcha. Bánh có thể được phủ hoặc nhúng trong dâu tây ", 180000));
