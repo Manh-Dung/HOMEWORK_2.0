@@ -50,6 +50,7 @@ public class StorageAdaptor extends RecyclerView.Adapter<StorageAdaptor.ViewHold
 
     }
 
+
     @Override
     public int getItemCount() {
         return foodStorage.size();

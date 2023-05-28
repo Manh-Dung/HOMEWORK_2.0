@@ -1,2 +1,5 @@
-package com.example.learnactivity;public class LetterAdapter {
+package com.example.learnactivity;
+
+public class LetterAdapter {
+
 }
