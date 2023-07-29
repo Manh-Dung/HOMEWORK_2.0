@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginStart="16dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginEnd="16dp"
+    android:layout_marginBottom="10dp"
+    android:background="@drawable/cart_background"
+    android:elevation="3dp"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".Activity.SettingActivity">
+
+    <TextView
+        android:id="@+id/changePass"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/cart_background"
+        android:drawableRight="@drawable/right_image"
+        android:gravity="center_vertical"
+        android:text="Đổi mật khẩu"
+        android:textColor="#373b54"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/edOld"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10sp"
+        android:hint="Nhập mật khẩu cũ"
+        android:inputType="textPassword"
+        android:padding="10dp"
+        android:textColor="#373b54"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:visibility="gone"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/changePass" />
+
+    <EditText
+        android:id="@+id/edNew"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="Nhập mật khẩu mới"
+        android:inputType="textPassword"
+        android:padding="10dp"
+        android:textColor="#373b54"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:visibility="gone"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edOld" />
+
+    <EditText
+        android:id="@+id/edReNew"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="Nhập lại mật khẩu mới"
+        android:inputType="textPassword"
+        android:padding="10dp"
+        android:textColor="#373b54"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:visibility="gone"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edNew" />
+
+    <TextView
+        android:id="@+id/logoutBtn"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_margin="16dp"
+        android:background="@drawable/orange_button"
+        android:elevation="3dp"
+        android:gravity="center"
+        android:text="Đăng xuất"
+        android:textColor="#ffffff"
+        android:textSize="23sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
