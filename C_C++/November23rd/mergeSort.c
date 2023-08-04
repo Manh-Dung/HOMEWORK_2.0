@@ -20,7 +20,7 @@ void xuatMang(int a[], int n)
     }
 }
 
-void merge(int a[], int l, int m, int r)
+void merge(int a[], int length, int l, int m, int r)
 {
     int i, j, k;
     int n1 = m - l + 1;
@@ -64,20 +64,21 @@ void merge(int a[], int l, int m, int r)
         j++;
         k++;
     }
+    xuatMang(a, length);
+    printf("\n");
 }
 
-void mergeSort(int a[], int l, int r)
+void mergeSort(int a[], int length, int l, int r)
 {
     if (l < r)
     {
         int m = l + (r - l) / 2;
 
-        mergeSort(a, l, m);
-        mergeSort(a, m + 1, r);
+        mergeSort(a, length, l, m);
+        mergeSort(a, length, m + 1, r);
 
-        merge(a, l, m, r);
-        xuatMang(a, m);
-        printf("\n");
+        merge(a, length, l, m, r);
+        
     }
 }
 
@@ -90,7 +91,6 @@ int main()
     scanf("%d", &n);
 
     nhapMang(a, n);
-    mergeSort(a, n, );
-    xuatMang(a, n);
+    mergeSort(a, n, 0, n - 1);
     return 0;
 }
