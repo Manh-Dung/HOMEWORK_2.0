@@ -14,12 +14,12 @@ int LeftOf(node root, int value)
 {
     return value < root->data;
 }
- 
+
 int RightOf(node root, int value)
 {
     return value > root->data;
 }
- 
+
 node Insert(node root, int value)
 {
     if (root == NULL)
@@ -41,19 +41,26 @@ int Search(node root, int value)
 {
     if (root == NULL)
         return 0;
-    if(root->data == value){
+    if (root->data == value)
+    {
         return 1;
-    }else if (LeftOf(root, value)){
+    }
+    
+    else if (LeftOf(root, value))
+    {
         printf("\nTim o node ben trai.");
         return Search(root->left, value);
-    }else if( RightOf(root, value)){
+    }
+    else if (RightOf(root, value))
+    {
         printf("\nTim o node ben phai.");
         return Search(root->right, value);
     }
 }
 
-void NLR(node root){
-    if(root != NULL)
+void NLR(node root)
+{
+    if (root != NULL)
     {
         printf("%d ", root->data);
         NLR(root->left);
@@ -89,16 +96,20 @@ int main()
     int n;
     printf("\nMoi nhap so can tim: ");
     scanf("%d", &n);
-    if(n == root->data){
+    if (n == root->data)
+    {
         printf("\nXuat hien so can tim trong cay tim kiem nhi phan!");
     }
-    else{
+    else
+    {
         printf("So can tim khong xuat hien o root");
     }
-    if(Search(root, n) == 1){
+    if (Search(root, n) == 1)
+    {
         printf("\nXuat hien so can tim trong cay tim kiem nhi phan!");
     }
-    else{
+    else
+    {
         printf("\nKhong tim thay so can tim trong cay tim kiem nhi phan!");
     }
     free(root);
