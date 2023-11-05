@@ -1,10 +1,6 @@
 package com.example.foodorderingapp.Activity;
 
-import android.content.Context;
 import android.content.Intent;
-import android.content.res.ColorStateList;
-import android.graphics.Color;
-import android.graphics.drawable.GradientDrawable;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.LinearLayout;
@@ -18,7 +14,6 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.foodorderingapp.Adaptor.CartListAdaptor;
 import com.example.foodorderingapp.Adaptor.Interface.ChangeNumberItemsListener;
-import com.example.foodorderingapp.Adaptor.NotificationAdaptor;
 import com.example.foodorderingapp.Domain.NotificationDomain;
 import com.example.foodorderingapp.Helper.ManagementCart;
 import com.example.foodorderingapp.R;
@@ -35,7 +30,6 @@ public class CartListActivity extends AppCompatActivity {
     private ManagementCart managementCart;
     DatabaseReference databaseReference = FirebaseDatabase.getInstance().getReference("notifications");
 
-
     TextView totalFeeTxt, taxTxt, deliveryTxt, totalTxt, emptyTxt, checkOutBtn;
     private int tax;
     private ScrollView scrollView;
@@ -48,7 +42,7 @@ public class CartListActivity extends AppCompatActivity {
         managementCart = new ManagementCart(this);
         initView();
         initList();
-        CaculateCart();
+        CalculateCart();
         bottomNavigation();
     }
 
@@ -59,62 +53,34 @@ public class CartListActivity extends AppCompatActivity {
         LinearLayout settingBtn = findViewById(R.id.settingBtn);
         LinearLayout supportBtn = findViewById(R.id.supportBtn);
 
-        floatingActionButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                startActivity(new Intent(CartListActivity.this, CartListActivity.class));
-            }
-        });
+        floatingActionButton.setOnClickListener(view -> startActivity(new Intent(CartListActivity.this, CartListActivity.class)));
 
-        homeBtn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                startActivity(new Intent(CartListActivity.this, MainActivity.class));
-            }
-        });
+        homeBtn.setOnClickListener(view -> startActivity(new Intent(CartListActivity.this, MainActivity.class)));
 
-        profileBtn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                startActivity(new Intent(CartListActivity.this, ProfileActivity.class));
-            }
-        });
+        profileBtn.setOnClickListener(view -> startActivity(new Intent(CartListActivity.this, ProfileActivity.class)));
 
-        settingBtn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                startActivity(new Intent(CartListActivity.this, SettingActivity.class));
-            }
-        });
+        settingBtn.setOnClickListener(view -> startActivity(new Intent(CartListActivity.this, SettingActivity.class)));
 
-        supportBtn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                startActivity(new Intent(CartListActivity.this, SupportActivity.class));
-            }
-        });
+        supportBtn.setOnClickListener(view -> startActivity(new Intent(CartListActivity.this, SupportActivity.class)));
 
-        checkOutBtn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                checkOutBtn.setText("Đã thanh toán");
-                checkOutBtn.setTextColor(ContextCompat.getColor(getApplicationContext(), R.color.login_form));
-                checkOutBtn.setBackground(ContextCompat.getDrawable(getApplicationContext(), R.drawable.white_button));
+        checkOutBtn.setOnClickListener(view -> {
+            checkOutBtn.setText("Đã thanh toán");
+            checkOutBtn.setTextColor(ContextCompat.getColor(getApplicationContext(), R.color.login_form));
+            checkOutBtn.setBackground(ContextCompat.getDrawable(getApplicationContext(), R.drawable.white_button));
 
-                long millis = System.currentTimeMillis();
-                java.util.Date time = new java.util.Date(millis);
+            long millis = System.currentTimeMillis();
+            java.util.Date time = new java.util.Date(millis);
 
-                SimpleDateFormat dateFormat = new SimpleDateFormat("HH:mm dd-MM-yyyy");
-                String curTime = dateFormat.format(time);
+            SimpleDateFormat dateFormat = new SimpleDateFormat("HH:mm dd-MM-yyyy");
+            String curTime = dateFormat.format(time);
 
-                NotificationDomain notificationDomain = new NotificationDomain(curTime + FirebaseAuth.getInstance().getUid(),
-                        FirebaseAuth.getInstance().getUid(),
-                        curTime,
-                        "1");
-                databaseReference.child(FirebaseAuth.getInstance().getUid())
-                        .child(curTime + FirebaseAuth.getInstance().getUid())
-                        .setValue(notificationDomain);
-            }
+            NotificationDomain notificationDomain = new NotificationDomain(curTime + FirebaseAuth.getInstance().getUid(),
+                    FirebaseAuth.getInstance().getUid(),
+                    curTime,
+                    "1");
+            databaseReference.child(FirebaseAuth.getInstance().getUid())
+                    .child(curTime + FirebaseAuth.getInstance().getUid())
+                    .setValue(notificationDomain);
         });
     }
 
@@ -133,12 +99,7 @@ public class CartListActivity extends AppCompatActivity {
     private void initList() {
         LinearLayoutManager linearLayoutManager = new LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false);
         recyclerViewList.setLayoutManager(linearLayoutManager);
-        adapter = new CartListAdaptor(managementCart.getListCart(), this, new ChangeNumberItemsListener() {
-            @Override
-            public void changed() {
-                CaculateCart();
-            }
-        });
+        adapter = new CartListAdaptor(managementCart.getListCart(), this, () -> CalculateCart());
 
         recyclerViewList.setAdapter(adapter);
         if (managementCart.getListCart().isEmpty()) {
@@ -150,7 +111,7 @@ public class CartListActivity extends AppCompatActivity {
         }
     }
 
-    private void CaculateCart() {
+    private void CalculateCart() {
         double percentTax = 0.02;
         int delivery = 10000;
 
