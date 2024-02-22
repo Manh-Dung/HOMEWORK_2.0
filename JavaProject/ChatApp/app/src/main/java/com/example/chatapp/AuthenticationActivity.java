@@ -56,7 +56,7 @@ public class AuthenticationActivity extends AppCompatActivity {
                                 // Tìm thấy user cần tìm
                                 // Do something...
                                 Log.d("TAG", user.getUserName() + " - " + user.getUserPassword());
-                                Toast.makeText(AuthenticationActivity.this, "cak", Toast.LENGTH_SHORT).show();
+                                Toast.makeText(AuthenticationActivity.this, "Sign In Sucess!", Toast.LENGTH_SHORT).show();
                                 login();
                             }
                             else {

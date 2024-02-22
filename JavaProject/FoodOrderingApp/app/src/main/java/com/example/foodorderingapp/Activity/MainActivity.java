@@ -126,7 +126,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 // Nếu đây là tài khoản Admin thì vào trang dành riêng cho Admin
-                if (FirebaseAuth.getInstance().getUid().equals("zJmVUQQc3bZZRkO7L2GX4OScmZw2")){
+                if (FirebaseAuth.getInstance().getUid().equals("nFrpHNApvoWWWNW23b1mHuVGW6j1")){
                     startActivity(new Intent(MainActivity.this, UserActivity.class));
                 } else{
                     startActivity(new Intent(MainActivity.this, SupportActivity.class));

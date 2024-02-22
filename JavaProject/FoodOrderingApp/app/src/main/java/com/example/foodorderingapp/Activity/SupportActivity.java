@@ -44,7 +44,7 @@ public class SupportActivity extends AppCompatActivity {
         setContentView(binding.getRoot());
 
 //        receiverId = getIntent().getStringExtra("id");
-        receiverIdAdmin = "zJmVUQQc3bZZRkO7L2GX4OScmZw2";
+        receiverIdAdmin = "nFrpHNApvoWWWNW23b1mHuVGW6j1";
 
         senderRoom = FirebaseAuth.getInstance().getUid() + receiverIdAdmin;
         receiverRoom = receiverIdAdmin + FirebaseAuth.getInstance().getUid();
@@ -127,6 +127,8 @@ public class SupportActivity extends AppCompatActivity {
         messageAdaptor.add(messageDomain);
         databaseReferenceSender.child(String.valueOf(messageId)).setValue(messageDomain);
         databaseReferenceReceiver.child(String.valueOf(messageId)).setValue(messageDomain);
+
+        binding.messageEd.setText("");
     }
 
 

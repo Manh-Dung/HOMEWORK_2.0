@@ -54,7 +54,7 @@ public class UserAdaptor extends RecyclerView.Adapter<UserAdaptor.ViewHolder> {
         holder.itemView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                if (FirebaseAuth.getInstance().getUid().equals("zJmVUQQc3bZZRkO7L2GX4OScmZw2")){
+                if (FirebaseAuth.getInstance().getUid().equals("nFrpHNApvoWWWNW23b1mHuVGW6j1")){
                     Intent intent = new Intent(context, ChatActivity.class);
                     // Lấy id của item
                     intent.putExtra("id", userDomain.getUserId());

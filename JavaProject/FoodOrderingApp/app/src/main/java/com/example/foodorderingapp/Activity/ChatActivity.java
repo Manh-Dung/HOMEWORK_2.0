@@ -83,5 +83,7 @@ public class ChatActivity extends AppCompatActivity {
         messageAdapter.add(messageModel);
         databaseReferenceSender.child(String.valueOf(messageId)).setValue(messageModel);
         databaseReferenceReceiver.child(String.valueOf(messageId)).setValue(messageModel);
+
+        binding.messageEd.setText("");
     }
 }
